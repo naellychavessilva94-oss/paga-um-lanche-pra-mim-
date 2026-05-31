@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    background:#ff4d6d;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+h1{
+    color:white;
+    font-size:4rem;
+    z-index:2;
+}
+
+p{
+    color:white;
+    font-size:1.5rem;
+    z-index:2;
+}
+
+canvas{
+    position:absolute;
+    top:0;
+    left:0;
+}
